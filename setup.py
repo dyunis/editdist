@@ -9,8 +9,7 @@ ext_modules = [
     Extension(
         'editdist.wrapper',
         ['editdist/_editdist.cpp', 'editdist/wrapper.cpp'],
-        include_dirs=['./editdist'],
-        language='c++'
+        include_dirs=['./editdist']
     )
 ]
 
