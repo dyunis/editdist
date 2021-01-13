@@ -15,7 +15,9 @@ ext_modules = [
 
 setup(
     name='editdist',
-    ext_modules=ext_modules,
+    version='0.0.1',
     packages=['editdist'],
+    ext_modules=ext_modules,
+    setup_requires=['cython >= 0.29'],
     package_data={'editdist': ['_editdist.h']}
 )
