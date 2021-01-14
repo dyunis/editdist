@@ -3,7 +3,7 @@ try:
 except ImportError:
     from distutils import setup, Extension
 # from Cython.Build import cythonize
-# ext_modules = cythonize('wrapper.pyx')
+# ext_modules = cythonize('editdist/wrapper.pyx')
 
 ext_modules = [
     Extension(
